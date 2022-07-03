@@ -13,7 +13,7 @@ if($data)
 	$app_id;
 	$doc_id;
 	$docstatus=2;
-	$emp_q="SELECT * FROM document WHERE doc_status=$docstatus ORDER BY doc_id";
+	$emp_q="SELECT * FROM document WHERE doc_status=$docstatus ORDER BY doc_id DESC";
 	$emp_q_id = oci_parse($con, $emp_q); 		
 	$emp_q_r = oci_execute($emp_q_id);
 	$inc=1;

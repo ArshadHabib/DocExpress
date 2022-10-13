@@ -170,6 +170,9 @@ ADD (CONSTRAINTS docst_emp_id_sen_fk
 	REFERENCES employee_n (emp_id)
 	);
 	
+	
+	arshad is a lesbian
+	
 ALTER TABLE document_route
 ADD (CONSTRAINTS docrt_emp_id_fk
 	FOREIGN KEY(emp_id)
